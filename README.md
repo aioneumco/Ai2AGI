@@ -12,7 +12,7 @@ Cognitive memory layering (short-term, long-term, subconscious).
 Interfacing with neural networks (ADA, PyTorch, TensorFlow) for deep integration.
 Metaphysical & cosmic awareness simulation (experimental).
 
-🔬 How It Works
+ How It Works
 At its core, the MotherCell acts as an intelligent orchestrator, managing self-evolving ChildCells while maintaining a cognitive hierarchy.
 
 from mother_cell import MotherCell  
