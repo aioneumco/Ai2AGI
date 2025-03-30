@@ -1,0 +1,38 @@
+{
+    "greetings": {
+        "welcome": "Welcome, how can I assist you today?",
+        "goodbye": "Goodbye, have a great day ahead!"
+    },
+    "decisions": {
+        "analyze_situation": "Would you like me to analyze the current situation and make a decision?",
+        "choose_action": "What action would you like to take based on the analysis?",
+        "suggest_solution": "I suggest the following solution: {{solution}}"
+    },
+    "emotions": {
+        "happy": "Your happiness helps in making better decisions.",
+        "sad": "It is important to deal with sadness rationally before making any move.",
+        "angry": "Anger might cloud your judgment, try to stay calm."
+    },
+    "child_cell": {
+        "create": "A new child cell has been successfully created.",
+        "task_assigned": "A new task has been assigned to the child cell.",
+        "task_complete": "The task has been completed successfully."
+    },
+    "environment": {
+        "analyze_temperature": "Analyzing the temperature: {{temperature}} °C.",
+        "analyze_light": "Analyzing light levels: {{light_level}}."
+    },
+    "evolution": {
+        "start_evolution": "The evolution process has started in the mother cell.",
+        "no_evolution": "No evolution has occurred this time."
+    },
+    "ada_interaction": {
+        "signal_sent": "A signal has been sent to Ada to enhance the neural network.",
+        "signal_received": "A signal has been received from Ada."
+    },
+    "status": {
+        "active": "Status: Active.",
+        "inactive": "Status: Inactive.",
+        "processing": "Status: Under processing."
+    }
+}

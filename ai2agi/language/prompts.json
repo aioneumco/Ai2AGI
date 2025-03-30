@@ -1,0 +1,46 @@
+{
+    "english": {
+        "greetings": {
+            "welcome": "Welcome, how can I assist you today?",
+            "goodbye": "Goodbye, have a great day ahead!"
+        },
+        "environment": {
+            "temperature": "The current temperature is {temperature}°C. How do you feel about it?",
+            "light": "The light level is {light}. Should we adjust it?"
+        },
+        "emotions": {
+            "happy": "I see that you are feeling happy! Your mood is optimal for decision making.",
+            "sad": "I understand that you are feeling sad. Let me know if you'd like to talk about it."
+        },
+        "decisions": {
+            "choice": "Based on the analysis, I recommend you to {action}. What do you think?",
+            "feedback": "Your feedback is important for improving our decisions. Please share your thoughts."
+        },
+        "self_evolution": {
+            "no_evolution": "No self-evolution has occurred this time.",
+            "evolved": "The system has evolved! We are now more advanced than before."
+        }
+    },
+    "arabic": {
+        "greetings": {
+            "welcome": "مرحبًا، كيف يمكنني مساعدتك اليوم؟",
+            "goodbye": "وداعًا، أتمنى لك يومًا سعيدًا!"
+        },
+        "environment": {
+            "temperature": "درجة الحرارة الحالية هي {temperature}°C. كيف تشعر حيال ذلك؟",
+            "light": "مستوى الضوء هو {light}. هل ترغب في تعديله؟"
+        },
+        "emotions": {
+            "happy": "أرى أنك تشعر بالسعادة! مزاجك مثالي لصنع القرار.",
+            "sad": "أفهم أنك تشعر بالحزن. إذا أردت التحدث عن ذلك، أنا هنا."
+        },
+        "decisions": {
+            "choice": "بناءً على التحليل، أوصي بأن تقوم بـ {action}. ما رأيك؟",
+            "feedback": "تعليقاتك مهمة لتحسين قراراتنا. من فضلك، شارك أفكارك."
+        },
+        "self_evolution": {
+            "no_evolution": "لم تحدث أي تطورات ذاتية في هذا الوقت.",
+            "evolved": "لقد تطور النظام! نحن الآن أكثر تقدمًا من قبل."
+        }
+    }
+}

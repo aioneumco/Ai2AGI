@@ -1,0 +1,73 @@
+import json
+from datetime import datetime
+
+class AI_Dialogues:
+    def __init__(self, file_path):
+        # Define the path to the AI dialogues JSON file
+        self.file_path = file_path
+        self.dialogues = self.load_dialogues()  # Load the dialogues from the JSON file
+
+    def load_dialogues(self):
+        """
+        Load the dialogues from the JSON file.
+        If the file does not exist or is empty, initialize an empty list.
+        """
+        try:
+            with open(self.file_path, "r") as file:
+                dialogues_data = json.load(file)
+                return dialogues_data.get("dialogues", [])
+        except (FileNotFoundError, json.JSONDecodeError):
+            # If the file does not exist or is empty, return an empty list
+            return []
+
+    def save_dialogues(self):
+        """
+        Save the current dialogues to the JSON file.
+        """
+        with open(self.file_path, "w") as file:
+            json.dump({"dialogues": self.dialogues}, file, indent=4)
+        print("Dialogues have been saved to the file.")
+
+    def add_dialogue(self, interaction_type, participant, content, response_participant, response_content):
+        """
+        Add a new dialogue entry to the dialogues list and save it to the JSON file.
+        """
+        dialogue = {
+            "id": str(len(self.dialogues) + 1),  # Generate a unique ID for each dialogue
+            "interaction_type": interaction_type,
+            "participant": participant,
+            "content": content,
+            "response": {
+                "participant": response_participant,
+                "content": response_content
+            },
+            "timestamp": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')  # Timestamp in UTC format
+        }
+        self.dialogues.append(dialogue)
+        self.save_dialogues()  # Save the updated dialogues back to the file
+        print(f"New dialogue added with ID: {dialogue['id']}")
+
+    def get_dialogues(self):
+        """
+        Retrieve all dialogues.
+        """
+        return self.dialogues
+
+# Usage Example
+if __name__ == "__main__":
+    dialogues_manager = AI_Dialogues("C:\\pr\\Free_Knowledge_Perfection\\language\\ai_dialogues.json")
+
+    # Example: Adding a new dialogue
+    dialogues_manager.add_dialogue(
+        interaction_type="query",
+        participant="MotherCell",
+        content="How are the child cells performing?",
+        response_participant="ChildCell",
+        response_content="The child cells are functioning optimally and processing data efficiently."
+    )
+
+    # Retrieving and printing all dialogues
+    dialogues = dialogues_manager.get_dialogues()
+    for dialogue in dialogues:
+        print(f"ID: {dialogue['id']} | Interaction: {dialogue['interaction_type']} | Content: {dialogue['content']}")
+
