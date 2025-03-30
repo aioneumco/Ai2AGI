@@ -50,6 +50,7 @@ GitHub Repo: github.com/aioneum/Ai2AGI
  The Future of AI is Self-Evolving! 
 
 
+#opensource #MachineLearning #DeepLearning
 ***********************************************************************************
 
 
@@ -98,7 +99,7 @@ This project is licensed under the **Apache 2.0 License**.
 
 For more details, see the [LICENSE](LICENSE) file.
 
-
+#مشاريع_مفتوحة_المصدر #الذكاء_الاصطناعي #التعلم_العميق #الخلايا_العصبية
 
 
 
