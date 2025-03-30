@@ -10,11 +10,15 @@ and decision-making processes to simulate intelligent behavior.
 
 
 ## License
-This project is licensed under the **Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0)**.
-You can use and distribute this work commercially as long as you give proper credit.
-No modifications are allowed without explicit permission.
+This project is licensed under the **Apache 2.0 License**.
 
-[Full License Details](https://creativecommons.org/licenses/by-nd/4.0/)
+### Usage Conditions:
+- This software is **open-source** and may be modified or redistributed.
+- **You must retain credit** to the original creator: **Aioneum**.
+- Any modifications must include a reference to the original repository.
+
+For more details, see the [LICENSE](LICENSE) file.
+
 
 
 
