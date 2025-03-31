@@ -103,4 +103,4 @@ For more details, see the [LICENSE](LICENSE) file.
 
 
 
-<img src="https://github.com/aioneumco/Ai2AGI/blob/main/ai2agi/img/AI2AGI.png" width="50%" />
+<img src="https://github.com/aioneumco/Ai2AGI/blob/main/ai2agi/img/AI2AGI.png" />
